@@ -4,27 +4,143 @@
     "video": "/Banded_Kraits_480p_191dfcc9cf.mp4",
     "title": "Sky Ring",
     "location": "Kochi",
-    "description": "Shoot up a sky-high tower for a birds-eye view of Wonderla Kochi!"
+    "description": "Shoot up a sky-high tower for a birds-eye view of Wonderla Kochi!",
+    "category": "Land"
   },
   {
     "id": 2,
     "video": "/Drop_480p_592faaf01c.mp4",
     "title": "Recoil",
     "location": "Bengaluru",
-    "description": "India's first-ever action-packed reverse looping roller coaster ride!"
+    "description": "India's first-ever action-packed reverse looping roller coaster ride!",
+    "category": "Land"
   },
   {
     "id": 3,
     "video": "/Wave_Pool_1_480p_7ff2c460ac.mp4",
-    "title": "Mission Interstellar",
+    "title": "Thunder Mountain",
     "location": "Hyderabad",
-    "description": "Blast through cosmic chaos on a wild, out-of-this-world space ride!"
+    "description": "Race through an abandoned mine on this thrilling roller coaster adventure!",
+    "category": "Land"
   },
   {
     "id": 4,
     "video": "/Waterfall_480p_986c910678.mp4",
+    "title": "Gravity Defier",
+    "location": "Bhubaneswar",
+    "description": "Experience weightlessness as you drop from 100 feet in the air!",
+    "category": "Land"
+  },
+  {
+    "id": 5,
+    "video": "/Banded_Kraits_480p_191dfcc9cf.mp4",
+    "title": "Tornado Twister",
+    "location": "Chennai",
+    "description": "Spin and twist through this high-speed thrill ride that will leave you breathless!",
+    "category": "Land"
+  },
+  {
+    "id": 6,
+    "video": "/Drop_480p_592faaf01c.mp4",
+    "title": "Jungle Safari",
+    "location": "Mumbai",
+    "description": "Journey through a wild jungle terrain on this exciting off-road adventure!",
+    "category": "Land"
+  },
+  {
+    "id": 7,
+    "video": "/Wave_Pool_1_480p_7ff2c460ac.mp4",
+    "title": "Mission Interstellar",
+    "location": "Hyderabad",
+    "description": "Blast through cosmic chaos on a wild, out-of-this-world space ride!",
+    "category": "Water"
+  },
+  {
+    "id": 8,
+    "video": "/Waterfall_480p_986c910678.mp4",
     "title": "Equinox",
     "location": "Bhubaneswar",
-    "description": "A thrill monster that spins you 360 degrees in a giant circle!"
+    "description": "A thrill monster that spins you 360 degrees in a giant circle!",
+    "category": "Water"
+  },
+  {
+    "id": 9,
+    "video": "/Banded_Kraits_480p_191dfcc9cf.mp4",
+    "title": "Tsunami Wave",
+    "location": "Kochi",
+    "description": "Ride the massive waves in India's largest wave pool!",
+    "category": "Water"
+  },
+  {
+    "id": 10,
+    "video": "/Drop_480p_592faaf01c.mp4",
+    "title": "Rapid River",
+    "location": "Bengaluru",
+    "description": "Navigate through white water rapids on this exciting river adventure!",
+    "category": "Water"
+  },
+  {
+    "id": 11,
+    "video": "/Wave_Pool_1_480p_7ff2c460ac.mp4",
+    "title": "Aqua Loop",
+    "location": "Chennai",
+    "description": "Experience the thrill of a 360-degree loop on this water slide!",
+    "category": "Water"
+  },
+  {
+    "id": 12,
+    "video": "/Waterfall_480p_986c910678.mp4",
+    "title": "Splash Mountain",
+    "location": "Mumbai",
+    "description": "Plunge down a 50-foot drop into a refreshing pool of water!",
+    "category": "Water"
+  },
+  {
+    "id": 13,
+    "video": "/Banded_Kraits_480p_191dfcc9cf.mp4",
+    "title": "Mini Express",
+    "location": "Kochi",
+    "description": "A gentle train ride perfect for little adventurers!",
+    "category": "Kids"
+  },
+  {
+    "id": 14,
+    "video": "/Drop_480p_592faaf01c.mp4",
+    "title": "Bumper Cars",
+    "location": "Bengaluru",
+    "description": "Fun-filled bumper car experience for the whole family!",
+    "category": "Kids"
+  },
+  {
+    "id": 15,
+    "video": "/Wave_Pool_1_480p_7ff2c460ac.mp4",
+    "title": "Merry-Go-Round",
+    "location": "Hyderabad",
+    "description": "Classic carousel ride with beautifully painted horses for the little ones!",
+    "category": "Kids"
+  },
+  {
+    "id": 16,
+    "video": "/Waterfall_480p_986c910678.mp4",
+    "title": "Balloon Race",
+    "location": "Bhubaneswar",
+    "description": "Colorful hot air balloons that gently rise and spin for young riders!",
+    "category": "Kids"
+  },
+  {
+    "id": 17,
+    "video": "/Banded_Kraits_480p_191dfcc9cf.mp4",
+    "title": "Kiddie Coaster",
+    "location": "Chennai",
+    "description": "A small roller coaster designed specifically for children's first thrill ride!",
+    "category": "Kids"
+  },
+  {
+    "id": 18,
+    "video": "/Drop_480p_592faaf01c.mp4",
+    "title": "Wonderland",
+    "location": "Mumbai",
+    "description": "Interactive play area with slides, ball pits, and climbing structures!",
+    "category": "Kids"
   }
-] 
+]
