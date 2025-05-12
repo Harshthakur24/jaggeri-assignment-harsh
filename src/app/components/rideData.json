@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "video": "/Banded_Kraits_480p_191dfcc9cf.mp4",
+    "title": "Sky Ring",
+    "location": "Kochi",
+    "description": "Shoot up a sky-high tower for a birds-eye view of Wonderla Kochi!"
+  },
+  {
+    "id": 2,
+    "video": "/Drop_480p_592faaf01c.mp4",
+    "title": "Recoil",
+    "location": "Bengaluru",
+    "description": "India's first-ever action-packed reverse looping roller coaster ride!"
+  },
+  {
+    "id": 3,
+    "video": "/Wave_Pool_1_480p_7ff2c460ac.mp4",
+    "title": "Mission Interstellar",
+    "location": "Hyderabad",
+    "description": "Blast through cosmic chaos on a wild, out-of-this-world space ride!"
+  },
+  {
+    "id": 4,
+    "video": "/Waterfall_480p_986c910678.mp4",
+    "title": "Equinox",
+    "location": "Bhubaneswar",
+    "description": "A thrill monster that spins you 360 degrees in a giant circle!"
+  }
+] 
