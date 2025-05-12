@@ -6,14 +6,14 @@ const CarouselControls = ({ onPrev, onNext, inline }) => (
       <button
         aria-label="Previous"
         onClick={onPrev}
-        className="bg-[#F5D85E] w-14 h-14 rounded-full flex items-center justify-center shadow-lg border-4 border-white hover:bg-yellow-400 transition-all"
+        className="bg-[#F5D85E] hover:cursor-pointer w-14 h-14 rounded-full flex items-center justify-center shadow-lg border-4 border-white hover:bg-yellow-400 transition-all"
       >
         <svg width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="#232B3B" strokeWidth="3"><path d="M15 19l-7-7 7-7" strokeLinecap="round" strokeLinejoin="round" /></svg>
       </button>
       <button
         aria-label="Next"
         onClick={onNext}
-        className="bg-[#F5D85E] w-14 h-14 rounded-full flex items-center justify-center shadow-lg border-4 border-white hover:bg-yellow-400 transition-all"
+        className="bg-[#F5D85E] hover:cursor-pointer w-14 h-14 rounded-full flex items-center justify-center shadow-lg border-4 border-white hover:bg-yellow-400 transition-all"
       >
         <svg width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="#232B3B" strokeWidth="3"><path d="M9 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
       </button>
@@ -23,14 +23,14 @@ const CarouselControls = ({ onPrev, onNext, inline }) => (
       <button
         aria-label="Previous"
         onClick={onPrev}
-        className="bg-[#F5D85E] w-14 h-14 rounded-full flex items-center justify-center shadow-lg border-4 border-white hover:bg-yellow-400 transition-all"
+        className="bg-[#F5D85E] hover:cursor-pointer w-14 h-14 rounded-full flex items-center justify-center shadow-lg border-4 border-white hover:bg-yellow-400 transition-all"
       >
         <svg width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="#232B3B" strokeWidth="3"><path d="M15 19l-7-7 7-7" strokeLinecap="round" strokeLinejoin="round" /></svg>
       </button>
       <button
         aria-label="Next"
         onClick={onNext}
-        className="bg-[#F5D85E] w-14 h-14 rounded-full flex items-center justify-center shadow-lg border-4 border-white hover:bg-yellow-400 transition-all"
+        className="bg-[#F5D85E] hover:cursor-pointer w-14 h-14 rounded-full flex items-center justify-center shadow-lg border-4 border-white hover:bg-yellow-400 transition-all"
       >
         <svg width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="#232B3B" strokeWidth="3"><path d="M9 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
       </button>
