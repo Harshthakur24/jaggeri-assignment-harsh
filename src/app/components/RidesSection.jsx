@@ -9,10 +9,10 @@ import rideData from './rideData.json';
 const RidesSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedCategory, setSelectedCategory] = useState('Water');
-  const [direction, setDirection] = useState(1); // 1 for next, -1 for prev
+  const [direction, setDirection] = useState(1); 
   const visibleCards = 3;
 
-  // Filter rides based on selected category
+  
   const filteredRides = rideData.filter(ride => ride.category === selectedCategory);
 
   const handlePrev = () => {
@@ -25,12 +25,12 @@ const RidesSection = () => {
     setCurrentIndex((prev) => (prev === filteredRides.length - visibleCards ? 0 : prev + 1));
   };
 
-  // Reset current index when category changes
+  
   useEffect(() => {
     setCurrentIndex(0);
   }, [selectedCategory]);
 
-  // Auto-scroll
+
   useEffect(() => {
     const interval = setInterval(() => {
       if (filteredRides.length > visibleCards) {
@@ -41,7 +41,7 @@ const RidesSection = () => {
     return () => clearInterval(interval);
   }, [currentIndex, selectedCategory]);
 
-  // Animation variants for the group
+
   const groupVariants = {
     enter: (dir) => ({
       x: dir > 0 ? 400 : -400,
