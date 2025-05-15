@@ -59,6 +59,7 @@ const RidesSection = () => {
 
   return (
     <section className="relative bg-[#22304A] flex flex-row gap-0 max-w-[1400px] mx-auto min-h-[700px] items-start">
+      
       <CategorySidebar selectedCategory={selectedCategory} onSelectCategory={setSelectedCategory} />
       <div className="flex-1 flex flex-col items-center pt-10">
         <div className="flex flex-row items-center w-full mb-8 mt-20">

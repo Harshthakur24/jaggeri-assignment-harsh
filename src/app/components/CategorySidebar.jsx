@@ -27,9 +27,9 @@ const categories = [
 
 
 const circlePositions = [
-  { top: 90, left: 30 },    // Land
-  { top: 280, left: 80 }, // Water
-  { top: 470, left: 30 }   // Kids
+  { top: 85, left: 70 },    // Land
+  { top: 280, left: 130 }, // Water
+  { top: 460, left: 20 }   // Kids
 ];
 
 const CategorySidebar = ({ selectedCategory, onSelectCategory }) => {
@@ -37,6 +37,14 @@ const CategorySidebar = ({ selectedCategory, onSelectCategory }) => {
 
   return (
     <aside className="relative flex flex-col items-center justify-start min-w-[260px] h-[700px]">
+    <div class="absolute w-[580px] h-[550px] rounded-full bg-gradient-to-b from-gray-100 via-yellow-400 to-gray-100 transform rotate-45 z-0 mt-20 mr-72">
+   
+   <div class="w-full h-full bg-[#22304A] rounded-full absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 scale-75"></div>
+
+</div>
+ 
+  
+
       {/* Arc background */}
       {/* <div className="absolute -left-32 top-0 h-[600px] w-[400px] z-0">
         <svg width="400" height="600" viewBox="0 0 400 600" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,6 +62,7 @@ const CategorySidebar = ({ selectedCategory, onSelectCategory }) => {
         transition={{ type: 'spring', stiffness: 120, damping: 18 }}
         style={{ width: 400, height: 180 }}
       >
+        
         <div className="rounded-full border-[12px] border-[#F5D85E] bg-white shadow-2xl flex items-center justify-center w-[180px] h-[180px]">
           <motion.div
             key={selectedCategory}
